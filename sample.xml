@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Structure>
+    <SimpleField>simple value</SimpleField>
+    <AnotherSimpleField>another simple field</AnotherSimpleField>
+    <MultiField>multi field with ideally same value one</MultiField>
+    <MultiField>multi field with ideally same value two</MultiField>
+    <AnotherMultiField>another multi field one</AnotherMultiField>
+    <AnotherMultiField>another multi field one</AnotherMultiField>
+</Structure>

@@ -1,0 +1,36 @@
+{
+  "basePath": "sample.xml",
+  "outputBaseName": "sampleOutputFile",
+  "quantity": 1,
+  "changes": {
+    "replace": [
+      {
+        "field": "SimpleField",
+        "rule": "random_digit_letter",
+        "length": 9,
+        "multiple": false
+      },
+      {
+        "field": "AnotherSimpleField",
+        "rule": "random_in_values",
+        "values": ["Sample One", "Sample Two", "Sample Three", "Sample Four"],
+        "multiple": false,
+        "differentValue": false
+      },
+      {
+        "field": "MultiField",
+        "rule": "random_digit_letter",
+        "length": 9,
+        "multiple": true,
+        "differentValue": true
+      },
+      {
+        "field": "AnotherMultiField",
+        "rule": "random_in_values",
+        "values": ["Sample Multi One", "Sample Multi Two", "Sample Multi Three", "Sample Multi Four"],
+        "multiple": true,
+        "differentValue": false
+      }
+    ]
+  }
+}
